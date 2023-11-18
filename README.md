@@ -1,27 +1,21 @@
-# ChartsClient
+# Personel Sales Tracking Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
+## Overview
+This real-time Personnel Sales Tracking Application enables managers to monitor sales activities as they happen. Each sale entered into the database by a manager is instantly reflected on the salesperson's graph and broadcasted to all subscribers, allowing real-time tracking of the sales flow.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Real-Time Sales Tracking:** Watch the sales flow in real time as every entry by a manager is immediately updated on the salesperson's graphical representation.
+- **Dynamic Graphs:** Utilizes HighCharts for dynamic and interactive graphical representations of sales data.
+- **User-Friendly Interface:** Angular-based responsive and intuitive user interface.
+- **Efficient Backend Management:** Robust and efficient server-side management using .NET Core.
+- **Database Integration:** Reliable data storage with MSSQL database.
 
-## Code scaffolding
+## Technical Details
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Frontend:** Developed with Angular for a dynamic and user-friendly interface.
+- **Backend:** Powered by .NET Core for robust server-side operations.
+- **Database:** MSSQL for secure and reliable data management.
+- **Real-Time Operations:** Implemented with SignalR for live data broadcasting and updates.
+- **Graphs:** HighCharts used for interactive and dynamic sales graphs.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
